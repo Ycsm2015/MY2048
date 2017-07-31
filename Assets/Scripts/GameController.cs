@@ -52,7 +52,8 @@ public class GameController : MonoBehaviour
     {
         InitBackGroundAndNumbers();
         yield return new WaitForEndOfFrame();
-        NewGame();
+        
+        //NewGame(); unless will be stuck
     }
     public void NewGame()
     {
